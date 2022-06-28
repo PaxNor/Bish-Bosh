@@ -1,0 +1,61 @@
+
+/* sets text area resize property to none */
+textarea {
+    margin-top: 4em;
+    resize: none;
+}
+
+:root {
+    --accent: rgb(63, 186, 14);
+
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    padding: 2em 0;
+    text-align: center;
+    background-color: var(--accent);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+body {
+    margin: 1em  auto 0;
+    padding: 1em 0 10em;
+    width: 60em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #888;
+    color: rgb(20, 25, 34);
+}
+
+main {
+    padding: 7em  5em 14em;
+    background-color: rgb(238, 238, 240);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h1 {
+    color: rgb(170, 213, 168);
+    font-size: 500%;
+}
+
+h2, h3, h4, h5 {
+    text-align: left;
+    padding-bottom: 0.75em;
+    color: var(--accent);
+}
+
+p {
+    padding-bottom: 1em;
+    text-align: left;
+}
+
+.interface {
+    padding-top: 3em;
+}

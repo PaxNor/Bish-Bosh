@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bish-Bosh</title>
+</head>
+<body>
+
+    <header>
+        <h1><em>Labb 9</em></h1>
+    </header>
+    <main>
+        <h3>
+            Bish-Bosh
+        </h3>
+        <p>
+            Detta är ett kodproblem som kan dyka upp i intervjuer, kodgolf och
+            liknande sammanhang. Man skall här lista nummer från 1 till 100 men
+            byta ut nummret mot 'bish' i tal jämnt delbara med 3 och 'bosh' i tal
+            jämnt delbara med 4. För tal som är delbara med både 3 och 4 
+            skall talet istället bytas ut mot 'bish-bosh'. 
+        </p>
+        <p>
+            I denna övningen används ett webinterface där man även kan välja
+            värden på 'bish' och 'bosh' samt hur många tal som
+            skall skrivas ut.
+        </p>
+
+        <div class="interface">
+            Bish: 
+            <input type="text" name="name" id="bishID" value="">
+            Bosh:
+            <input type="text" name="name" id="boshID" value="">
+            Max:
+            <input type="text" name="name" id="maxID" value="">
+
+            <button id="buttonID">
+                Try It!
+            </button>
+
+            <textarea readonly="true" rows="15" id="outputID"></textarea>
+        </div>
+
+    </main>
+
+    <footer>
+        © 2022 Fredrik Stark
+    </footer>
+
+</body>
+    <script type="text/javascript" src="bish-bosh.js"></script>
+</html>
